@@ -1,0 +1,6 @@
+package com.microservices.controller;
+
+@RestController
+public class CurrencyConversionController {
+
+}

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;Employee.java&apos; to &apos;thymeleafdemo-employee-list-db/src/main/java/com.springboot.demo.thymeleafdemo.entity&apos;&#x0D;&#x0A;- Original project: &apos;thymeleafdemo&apos;&#x0D;&#x0A;- Destination element: &apos;thymeleafdemo-employee-list-db/src/main/java/com.springboot.demo.thymeleafdemo.entity&apos;&#x0D;&#x0A;- Original element: &apos;com.springboot.demo.thymeleafdemo.model.Employee.java&apos;" description="Copy compilation unit" destination="=thymeleafdemo-employee-list-db/src\/main\/java&lt;com.springboot.demo.thymeleafdemo.entity" element1="/src\/main\/java&lt;com.springboot.demo.thymeleafdemo.model{Employee.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1566588280046" units="1" version="1.0"/>
+</session>

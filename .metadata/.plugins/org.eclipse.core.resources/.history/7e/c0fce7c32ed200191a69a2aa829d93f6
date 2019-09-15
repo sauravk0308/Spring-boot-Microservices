@@ -1,0 +1,18 @@
+package io.ratingsdataservice.resource;
+
+import org.springframework.web.bind.annotation.PathVariable;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
+
+import io.ratingsdataservice.model.Movie;
+
+@RestController
+@RequestMapping("/movies")
+public class MovieResource {
+
+	@RequestMapping("/{movieId}")
+	public Movie getMoiveInfo(@PathVariable("movieId") String movieId) {
+		
+		return new Movie(movieId, "Test name");
+	}
+}

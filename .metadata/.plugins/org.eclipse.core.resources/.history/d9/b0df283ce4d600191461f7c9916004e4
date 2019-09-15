@@ -1,0 +1,31 @@
+package com.microservices.entity;
+
+import java.math.BigDecimal;
+
+public class CurrencyConversionBean {
+
+	private Long id;
+	private String from;
+	private String to;
+	private BigDecimal ConversionMultiple;
+	private BigDecimal quantity;
+	private BigDecimal calculatedAmount;
+	
+	
+	public CurrencyConversionBean() {
+		
+	}
+
+	public CurrencyConversionBean(Long id, String from, String to, BigDecimal conversionMultiple, BigDecimal quantity,
+			BigDecimal calculatedAmount) {
+		super();
+		this.id = id;
+		this.from = from;
+		this.to = to;
+		ConversionMultiple = conversionMultiple;
+		this.quantity = quantity;
+		this.calculatedAmount = calculatedAmount;
+	}
+	
+	
+}

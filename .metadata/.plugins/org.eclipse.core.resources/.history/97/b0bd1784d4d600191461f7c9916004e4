@@ -1,0 +1,10 @@
+package com.microservices.controller;
+
+@RestController
+public class CurrencyExchangeController {
+
+	@GetMapping("/currency-exchange/from/{from}/to/{to}")
+	public ExchangeValue retrieveExchangeValue(@PathVariable String from, @PathVariable String to) {
+		
+	}
+}

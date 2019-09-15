@@ -1,0 +1,5 @@
+package io.movieinfoservice.model;
+
+public class UserRating {
+
+}

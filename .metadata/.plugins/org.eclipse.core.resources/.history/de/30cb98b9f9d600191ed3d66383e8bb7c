@@ -1,0 +1,6 @@
+package com.microservices;
+
+@Component
+public class ZuulLoggingFilter {
+
+}

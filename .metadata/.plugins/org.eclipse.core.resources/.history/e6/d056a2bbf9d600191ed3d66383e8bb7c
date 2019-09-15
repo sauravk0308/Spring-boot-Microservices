@@ -1,0 +1,8 @@
+package com.microservices;
+
+import com.netflix.zuul.ZuulFilter;
+
+@Component
+public class ZuulLoggingFilter extends ZuulFilter{
+
+}

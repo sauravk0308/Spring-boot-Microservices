@@ -1,0 +1,21 @@
+package io.movieinfoservice.resource;
+
+import org.springframework.web.bind.annotation.PathVariable;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
+
+import io.movieinfoservice.model.Movie;
+
+@RestController
+@RequestMapping("/movies")
+public class MovieResource {
+
+	@Value("${api-key}")
+	private String apiKkey;
+	
+	@RequestMapping("/{movieId}")
+	public Movie getMoiveInfo(@PathVariable("movieId") String movieId) {
+		
+		return new Movie(movieId, "Test name");
+	}
+}
